@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    background-color: #BAB7DB;
+    user-select: none;
+}
+
+.main-top {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+#logo {
+    width: 165px;
+}
+
+a {
+    text-decoration: none;
+    color: #383838;
+}
+
+.contacts {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 15px;
+}
+
+.omg {
+    width: 18px;
+}
+
+button {
+    padding: 10px;
+    width: 150px;
+    background-color: #006BA7;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.head {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 77px;
+    margin-bottom: 28.5px;
+    background-image: url(images/comp.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.btn {
+    margin: 40px 10px;
+    font-size: 20px;
+    width: 220px; 
+    height: 42.5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 33.3px;
+    color:#008bdb;
+}
+
+#h {
+    font-size: 22px;
+}
+
+.information {
+    background-color: #BAB7DB;
+    padding-bottom: 14.5px;
+} 
+
+.text {
+    background-color: #BAB7DB;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.info {
+    width: 370px;
+    font-size: 14px;
+    margin: 22.8px 10px;
+    color: #383838;
+}
+
+footer {
+    background-color: #3c1c04;
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .main-top {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .text{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contacts {
+        flex-direction: column;
+    }
+    .main-top {
+        padding: 7px;
+    }
+
+    .icon {
+        margin-top: 7px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        margin: 20px 10px;
+        padding-top: 10px;
+    }
+
+    .head {
+        background-position: 160%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #logo {
+        margin-top: 15px;
+    }
+
+    #b {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
